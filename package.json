@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/vincecabrera/silverstripe-productlink.git"
+    "url": "git+https://github.com/VinceCabrera/silverstripe-productlink.git"
   },
   "keywords": [
     "silverstripe",
