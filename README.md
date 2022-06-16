@@ -1,6 +1,6 @@
 # SilverStripe 4 Product Link Module 
 
-Silverstripe 4 module adding the possibility to create / edit Product links using the TinyMCE editor (tel: links).
+Silverstripe 4 module adding the possibility to create / edit Product links using the TinyMCE editor.
 
 It uses the native SilverStripe 4 React modals and seamlessly integrates in the CMS.
 
