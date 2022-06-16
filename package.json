@@ -1,7 +1,7 @@
 {
-  "name": "silverstripe-phonelink",
-  "version": "2.1.0",
-  "description": "SilverStripe PhoneLink",
+  "name": "silverstripe-productlink",
+  "version": "1.0",
+  "description": "SilverStripe Product Link",
   "scripts": {
     "build": "yarn && NODE_ENV=production webpack -p --bail --progress",
     "dev": "NODE_ENV=development webpack --progress",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/firebrandhq/silverstripe-phonelink.git"
+    "url": "git://github.com/vincecabrera/silverstripe-productlink.git"
   },
   "keywords": [
     "silverstripe",
     "tinymce",
     "cms"
   ],
-  "author": "Fireband Holdings Ltd",
+  "author": "Rio Bravo Ltd",
   "license": "BSD-3-Clause",
   "dependencies": {
     "babel-loader": "^7.0.0"
