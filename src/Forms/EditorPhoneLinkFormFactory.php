@@ -1,6 +1,6 @@
 <?php
 
-namespace Firebrand\PhoneLink\Forms;
+namespace VinceCabrera\ProductLink\Forms;
 
 use SilverStripe\Admin\Forms\LinkFormFactory;
 use SilverStripe\Forms\FieldList;
