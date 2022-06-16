@@ -4,8 +4,6 @@ Silverstripe 4 module adding the possibility to create / edit Product links usin
 
 It uses the native SilverStripe 4 React modals and seamlessly integrates in the CMS.
 
-If you need this for SilverStripe 3 [use Nathan Cox's module](https://github.com/nathancox/silverstripe-phonelink).
-
 ## Requirements
 
 * [SilverStripe ^4.4](https://www.silverstripe.org/download)
