@@ -1,8 +1,8 @@
 {
-	"name": "firebrandhq/silverstripe-phonelink",
-	"description": "Adds a telephone number option to TinyMCE's Insert Link dropdown for creating/editing tel: links using native SilverStripe 4 modals",
+	"name": "vincecabrera/silverstripe-productlink",
+	"description": "Adds a product option to TinyMCE's Insert Link dropdown for creating/editing tel: links using native SilverStripe 4 modals",
 	"type": "silverstripe-vendormodule",
-	"homepage": "https://github.com/firebrandhq/silverstripe-phonelink",
+	"homepage": "https://github.com/VinceCabrera/silverstripe-productlink",
 	"keywords": [
 		"silverstripe",
 		"cms",
@@ -11,24 +11,24 @@
 	"license": "BSD-3-Clause",
 	"authors": [
 		{
-			"name": "Marc Espiard",
-			"email": "marc@firebrand.nz"
+			"name": "Vince Cabrera",
+			"email": "vince.cabrera@riobravo.co.nz"
 		},
 		{
-			"name": "Firebrand",
-			"homepage": "https://firebrand.nz",
-			"email": "developers@firebrand.nz"
+			"name": "Rio Bravo",
+			"homepage": "https://riobravo.nz",
+			"email": "vince.cabrera@riobravo.co.nz"
 		}
 	],
 	"support": {
-		"issues": "https://github.com/firebrandhq/silverstripe-phonelink/issues"
+		"issues": "https://github.com/vincecabrera/silverstripe-productlink/issues"
 	},
 	"require": {
 		"silverstripe/cms": "^4.4"
 	},
 	"autoload": {
 		"psr-4": {
-			"Firebrand\\PhoneLink\\": "src/"
+			"VinceCabrera\\ProductLink\\": "src/"
 		}
 	},
 	"extra": {
