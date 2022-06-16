@@ -1,11 +1,11 @@
 ---
-Name: phonelinkmodule
+Name: prductlinkmodule
 After:
   - '#cmsmodals'
 ---
 SilverStripe\Admin\ModalController:
   extensions:
-    - Firebrand\PhoneLink\Forms\PhoneLinkModalExtension
+    - VinceCabrera\ProductLink\Forms\ProductLinkModalExtension
 SilverStripe\Admin\LeftAndMain:
   extensions:
-    - Firebrand\PhoneLink\Extensions\LeftAndMainExtension
+    - VinceCabrera\ProductLink\Extensions\LeftAndMainExtension
