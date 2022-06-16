@@ -1,6 +1,6 @@
 <?php
 
-namespace Firebrand\PhoneLink\Forms;
+namespace VinceCabrera\ProductLink\Forms;
 
 use SilverStripe\Admin\ModalController;
 use SilverStripe\Core\Extension;
@@ -10,10 +10,10 @@ use SilverStripe\Forms\Form;
  * Decorates ModalController with insert phone link
  * @see ModalController
  */
-class PhoneLinkModalExtension extends Extension
+class ProductLinkModalExtension extends Extension
 {
     private static $allowed_actions = [
-        'EditorPhoneLink',
+        'EditorProductLink',
     ];
 
     /**
@@ -32,13 +32,13 @@ class PhoneLinkModalExtension extends Extension
      *
      * @return Form
      */
-    public function EditorPhoneLink()
+    public function EditorProductLink()
     {
         $showLinkText = $this->getOwner()->getRequest()->getVar('requireLinkText');
-        $factory = EditorPhoneLinkFormFactory::singleton();
+        $factory = EditorProductLinkFormFactory::singleton();
         return $factory->getForm(
             $this->getOwner(),
-            "EditorPhoneLink",
+            "EditorProductLink",
             ['RequireLinkText' => isset($showLinkText)]
         );
     }
