@@ -14,7 +14,7 @@ For Silverstripe 4.0 to 4.1 use [this branch](https://github.com/VinceCabrera/si
 **Run the following command:**
 
 ```sh
-composer require vincecabrera/silverstripe-productlink "^2.0"
+composer require vincecabrera/silverstripe-productlink
 ```
 
 ## Screenshots
