@@ -2,7 +2,7 @@
 	"name": "vincecabrera/silverstripe-productlink",
 	"description": "Adds a product option to TinyMCE's Insert Link dropdown for creating/editing tel: links using native SilverStripe 4 modals",
 	"type": "silverstripe-vendormodule",
-	"homepage": "https://github.com/VinceCabrera/silverstripe-productlink",
+	"homepage": "https://github.com/VinceCabrera/silverstripe-productlink.git",
 	"keywords": [
 		"silverstripe",
 		"cms",
