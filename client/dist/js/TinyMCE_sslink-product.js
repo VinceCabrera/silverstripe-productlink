@@ -19,7 +19,7 @@
         return e.d(t, "a", t), t
     }, e.o = function (n, e) {
         return Object.prototype.hasOwnProperty.call(n, e)
-    }, e.p = "", e(e.s = "./client/src/TinyMCE_sslink-product.js")
+    }, e.p = "", e(e.s = "./client/dist/js/TinyMCE_sslink-product.js")
 }({
     "./client/src/TinyMCE_sslink-product.js": function (n, e, t) {
         "use strict";
