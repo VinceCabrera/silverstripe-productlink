@@ -1,5 +1,10 @@
-en:
-  Firebrand\PhoneLink\Forms\EditorPhoneLinkFormFactory:
-    PHONE: 'Phone Number'
-    LINKDESCR: 'Link description'
-    LINKTEXT: 'Link text'
+if(typeof(i18n) == 'undefined') {
+    console.error('Class i18n not defined');
+} else {
+    i18n.addDictionary('en', {
+        "Admin.LINKLABEL_PRODUCT": "Link to product",
+        "Admin.LINK_PRODUCT": "Insert product link",
+        "Admin.LINKLABEL_PCW": "Link to PCW record",
+        "Admin.LINK_PCW": "Insert PCW link"
+    });
+}
