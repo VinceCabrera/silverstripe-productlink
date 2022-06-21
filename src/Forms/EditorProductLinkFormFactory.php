@@ -8,7 +8,7 @@ use SilverStripe\Forms\RequiredFields;
 use SilverStripe\Forms\TextField;
 use SilverStripe\Forms\DropdownField;
 
-class EditorPCWLinkFormFactory extends LinkFormFactory{
+class EditorProductLinkFormFactory extends LinkFormFactory{
 
     protected function getFormFields($controller, $name, $context) {
         $products = \Product::get()->filter(["InventoryStatus" => "Current"])->sort("InventoryCode")->map("ID", "InventoryCode");
@@ -16,7 +16,7 @@ class EditorPCWLinkFormFactory extends LinkFormFactory{
         $fields = FieldList::create([
             DropdownField::create(
                 'Link',
-                'PCW Record',
+                'Product',
                 $products
             ),
             TextField::create(
