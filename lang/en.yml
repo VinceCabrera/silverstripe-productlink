@@ -1,10 +1,9 @@
-if(typeof(i18n) == 'undefined') {
-    console.error('Class i18n not defined');
-} else {
-    i18n.addDictionary('en', {
-        "Admin.LINKLABEL_PRODUCT": "Link to product",
-        "Admin.LINK_PRODUCT": "Insert product link",
-        "Admin.LINKLABEL_PCW": "Link to PCW record",
-        "Admin.LINK_PCW": "Insert PCW link"
-    });
-}
+en:
+  VinceCabrera\ProductLink\Forms\EditorProductLinkFormFactory:
+    PRODUCT: 'Product'
+    LINKDESCR: 'Link description'
+    LINKTEXT: 'Link text'
+  VinceCabrera\ProductLink\Forms\EditorPCWLinkFormFactory:
+    PRODUCT: 'PCW'
+    LINKDESCR: 'Link description'
+    LINKTEXT: 'Link text'    
