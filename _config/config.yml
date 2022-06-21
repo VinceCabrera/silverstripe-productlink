@@ -1,11 +1,12 @@
 ---
-Name: prductlinkmodule
+Name: productlinkmodule
 After:
   - '#cmsmodals'
 ---
 SilverStripe\Admin\ModalController:
   extensions:
     - VinceCabrera\ProductLink\Forms\ProductLinkModalExtension
+    - VinceCabrera\ProductLink\Forms\PCWLinkModalExtension
 SilverStripe\Admin\LeftAndMain:
   extensions:
     - VinceCabrera\ProductLink\Extensions\LeftAndMainExtension
