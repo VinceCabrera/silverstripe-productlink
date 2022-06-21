@@ -23,6 +23,7 @@ const config = [
         name: 'js',
         entry: {
             'TinyMCE_sslink-product': `${PATHS.SRC}/TinyMCE_sslink-product.js`,
+            'TinyMCE_sslink-pcw': `${PATHS.SRC}/TinyMCE_sslink-pcw.js`,
         },
         output: {
             path: PATHS.DIST,
